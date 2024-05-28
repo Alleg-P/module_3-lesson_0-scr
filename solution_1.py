@@ -1,4 +1,4 @@
-# 
+# Задание 
 
 class Animal:
     def __init__(self, name, sound):
@@ -11,7 +11,6 @@ class Animal:
     def eat(self, food):
         print(f"{self.name} is eating {food}")
 
-# Пример использования
 animal1 = Animal("Dog", "Woof")
 animal1.make_sound()
 animal1.eat("bone")
